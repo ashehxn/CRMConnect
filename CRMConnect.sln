@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMConnect.Server", "CRMConnect.Server\CRMConnect.Server.csproj", "{A1072F35-65B0-490E-8F6B-2EED991999C6}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "crmconnect.client", "crmconnect.client\crmconnect.client.esproj", "{CBB48BF6-0858-4903-93BF-C4B02E549FCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1072F35-65B0-490E-8F6B-2EED991999C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1072F35-65B0-490E-8F6B-2EED991999C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1072F35-65B0-490E-8F6B-2EED991999C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1072F35-65B0-490E-8F6B-2EED991999C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBB48BF6-0858-4903-93BF-C4B02E549FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB48BF6-0858-4903-93BF-C4B02E549FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB48BF6-0858-4903-93BF-C4B02E549FCA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CBB48BF6-0858-4903-93BF-C4B02E549FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB48BF6-0858-4903-93BF-C4B02E549FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBB48BF6-0858-4903-93BF-C4B02E549FCA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F921EF91-015B-425D-A052-B397E5C14470}
+	EndGlobalSection
+EndGlobal
