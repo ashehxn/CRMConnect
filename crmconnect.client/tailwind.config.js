@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-	darkMode: ["class"],
 	content: [
 		"./index.html",
 		"./src/**/*.{js,ts,jsx,tsx}",
@@ -19,8 +18,8 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				palanquin: ['Palanquin', 'sans-serif'],
 				montserrat: ['Montserrat', 'sans-serif'],
+				palanquin: ['Palanquin', 'sans-serif'],
 				itim: ['Itim', 'cursive']
 			},
 			colors: {
@@ -90,8 +89,7 @@ export default {
 	},
 	plugins: [
 		require('@tailwindcss/typography'),
-		require('daisyui'),
-		require("tailwindcss-animate"),
-	]
+		require('daisyui')
+	],
 }
 
